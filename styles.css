@@ -15,7 +15,7 @@ main {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	height: 90%;
+	height: ;
 	width: 30%;
 	border-radius: 12px;
 	border: 2px solid re;
@@ -118,7 +118,7 @@ a:hover {
 	color: rgb(0,0,0);
 	cursor: pointer;
 }
-
+/*
 @media only screen and (max-width: 1050px) and (min-width: 200px) {
 	#container {
 		height: 24%;
