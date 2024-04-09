@@ -15,7 +15,7 @@ main {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	height:90%;
+	height: 90%;
 	width: 30%;
 	border-radius: 12px;
 	border: 2px solid re;
@@ -59,10 +59,20 @@ button {
 	box-shadow: 9px 14px 18px 5px rgba(224,232,255,0.97);
 }
 
+button:hover {
+	background-color: hsl(245, 75%, 52%,0.8);
+	cursor: pointer;
+}
+
 a {
 	align-self: center;
 	color: hsl(245, 75%, 52%);
 	font-weight: bold;
+}
+
+a:hover {
+	color: hsl(245, 75%, 52%,0.8);
+	cursor: pointer;
 }
 
 .img1 {
@@ -104,77 +114,19 @@ a {
 	color: hsl(224, 23%, 55%);
 }
 
-@media only screen and (max-width: 1020px) {
+.p4:hover {
+	color: rgb(0,0,0);
+	cursor: pointer;
+}
+
+@media only screen and (max-width: 1050px) and (min-width: 200px) {
 	#container {
-		width: 35%;
-		height: 83%;
-	}
-	
-	body {
-		background-image: url("images/pattern-background-mobile.svg");
-		background-repeat: no-repeat;
+		height: 24%;
 	}
 }
 
-@media only screen and (max-width: 918px) {
+@media only screen and (max-width: 310px) and (min-width: 100px) {
 	#container {
-		width: 38%;
-		height: 84%;
-	}
-}
-
-@media only screen and (max-width: 825px) {
-	#container {
-		width: 39%;
-		height: 85%;
-	}
-}
-
-@media only screen and (max-width: 798px) {
-	#container {
-		width: 40%;
-		height: 86%;
-	}
-}
-
-@media only screen and (max-width: 775px) {
-	#container {
-		width: 42%;
-	}
-}
-
-@media only screen and (max-width: 730px) {
-	#container {
-		width: 50%;
-	}
-}
-
-@media only screen and (max-width: 615px) {
-	#container {
-		width: 55%;
-	}
-}
-
-@media only screen and (max-width: 568px) {
-	#container {
-		width: 60%;
-	}
-}
-
-@media only screen and (max-width:: 522px) {
-	#container {
-		width: 67%;
-	}
-}
-
-@media only screen and (max-width: 530px) {
-	#container {
-		width: 72%;
-	}
-}
-
-@media only screen and (max-width: 441px) {
-	#container {
-		width: 79%;
+		height: 18%;
 	}
 }
